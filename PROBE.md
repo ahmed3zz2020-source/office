@@ -1,2 +1,0 @@
-# Probe
-write ok times
