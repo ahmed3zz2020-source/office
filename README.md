@@ -1,3 +1,7 @@
+> ⭐ **تحديث ٣١ أكتوبر ٢٠٢٦:** أُنشئت **مؤسسة EZZ** — انظر `https://github.com/ahmed3zz2020-source/EZZ`.
+> هذا المستودع بقى **غرفة العمليات** (OCTA · بوت الذهب · كرونات التشغيل). **عقل المؤسسة** = مستودع EZZ (الدستور · الذاكرة · الوكلاء · القرارات).
+> ⛔ ما تحطش بيانات شخصية في أي منهما — المستودعان عامّان.
+
 # مكتب أحمد — Central Office
 
 This repo is the **versioned home** of the office system: charter, protocols, per-agent briefs, and the daily log index.
