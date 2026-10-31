@@ -11,7 +11,7 @@
 | Worker على workers.dev | 200 بعد POST /workers/scripts/<name>/subdomain بـ enabled=true |
 | Worker بــKV binding | Upload multipart بـtype=module + Content-Type application/javascript+module ⇒ 200 · لكن الطلب رجّع 1101 (الـbinding اتربط بعد multipart بـmetadata ⇒ محتاج إعادة اختبار) |
 | KV قراءة + كتابة | namespaces gold-signal-bus · gold-signal-bot-state — كتابة رجعت success:true |
-| تيليجرام outbound من cron | gold_scout_xau_bot · chat 2073907990 · 10 مرات متحققة |
+| تيليجرام outbound من cron | gold_scout_xau_bot · الـchat id في الأسرار (مش هنا) · 10 مرات متحققة |
 | تيليجرام getUpdates (قراءة) | gold bot رجّع ok:true |
 | بحث ويب | search بيرجّع نتائج حقيقية |
 | مولد صوت عربي | Arabic_CalmWoman · Arabic_FriendlyGuy |
