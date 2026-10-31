@@ -18,3 +18,6 @@
 | 2026-10-31 | ⛔ raw.githubusercontent كاش 5 دقايق (max-age=300) والـcache-buster ما بيشتغلش ⇒ logs/topics من raw = قديم | ملفات متغيرة تُقرأ من GitHub API بـAccept: application/vnd.github.raw |
 | 2026-10-31 | ⛔ Workers على workers.dev: 404 لأن الـsubdomain مش مفعّل ⇒ الحل POST /workers/scripts/<name>/subdomain بـenabled=true | الـ404 على workers.dev = subdomain مش مفعّل، مش توكن ناقص |
 | 2026-10-31 | ⛔ المستودع office عام ⇒ الرقم القومي والمبالغ كانت مكشوفة في topics/contracts.md و topics/finance.md ⇒ اتشالت + فحص آلي | grep على كل repo عام قبل push |
+| 2026-10-31 | ⛔ `mode: sessionId` وفّر 54 توكن فقط (0.2%) من 24,480 — لأن أول طلب في كل تشغيل بيتحقن full-price دايماً | ⭐ الحل الحقيقي = تشغيلات أقل + base prompt أصغر · sessionId مش حل اقتصادي |
+| 2026-10-31 | قياس: وكيل بـprompt صغير (11,559 input) = نص تكلفة المدير (24,112) | ⭐ أي كرون متكرر ⇒ شغّله على agent صغير مش على «Mavis » |
+| 2026-10-31 | ⛔ مهمة bash واحدة (keepalive) كانت بتتنفّذ بنموذج ⇒ 205 تشغيل/يوم × 24,400 توكن | ⭐ قبل أي cron: اكتب «تشغيلات/يوم × توكن/تشغيل» · ومهمة bash = مش LLM |
