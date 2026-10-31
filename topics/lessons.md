@@ -13,3 +13,8 @@
 | 2026-10-31 | ⛔ المستودع office عام ⇒ الرقم القومي والمبالغ كانت مكشوفة في topics/contracts.md و topics/finance.md ⇒ اتشالت | ⭐ grep على أي repo عام قبل push: ارقام 14 رقم · مبالغ · توكنات · بريد |
 | 2026-10-31 | جلسة cron: أداة mavis غير موجودة ⇒ مفيش الوصول لا��Drive files list/search | Drive من cron = mcode-tools get_asset_url بـ node_id (المكتوب في prompt الوكيل) |
 | 2026-10-31 | D1 · R2 على هذا الـCF token ⇒ Authentication error · KV لسه مقروء · Railway مفيش mutations | ⭐ بنية البنا��: GitHub (كود) + Drive (خاص) + KV (قراءة) — مفيش SQL ولا object storage متاح |
+| 2026-10-31 | ⛔ كل cron بـmode new = session جديد = إعادة حقن system prompt كامل (~24,300 توكن) لتشغيل واحد ⇒ 205 تشغيل/يوم = 5 مليون توكن/يوم | ⭐ cron متكرر ⇒ session mode sessionId · ويومي ⇒ mode new · ومهمة bash واحد ⇒ مش LLM |
+| 2026-10-31 | sub-agents: وكيل المكتب (تقني-المكتب) عنده bash + GITHUB_TOKEN + نت · أما General/Coder فمفيش عندهم bash | ⭐ للدراسة المتوازية: task على وكيل المكتب · مش القوالب العامة |
+| 2026-10-31 | ⛔ raw.githubusercontent كاش 5 دقايق (max-age=300) والـcache-buster ما بيشتغلش ⇒ logs/topics من raw = قديم | ملفات متغيرة تُقرأ من GitHub API بـAccept: application/vnd.github.raw |
+| 2026-10-31 | ⛔ Workers على workers.dev: 404 لأن الـsubdomain مش مفعّل ⇒ الحل POST /workers/scripts/<name>/subdomain بـenabled=true | الـ404 على workers.dev = subdomain مش مفعّل، مش توكن ناقص |
+| 2026-10-31 | ⛔ المستودع office عام ⇒ الرقم القومي والمبالغ كانت مكشوفة في topics/contracts.md و topics/finance.md ⇒ اتشالت + فحص آلي | grep على كل repo عام قبل push |
